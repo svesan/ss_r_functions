@@ -1,0 +1,32 @@
+{
+  if (Sys.info()[1]=="Linux") {
+    source("/home/svesan/ki/R/functions/ss.png.r")
+    source("/home/svesan/ki/R/functions/ss.html.r")
+    source("/home/svesan/ki/R/functions/contents.r")
+    source("/home/svesan/ki/R/functions/phest.r")
+    source("/home/svesan/ki/R/functions/phest.plot.r")
+    source("/home/svesan/ki/R/functions/Legend.r")
+    source("/home/svesan/ki/R/functions/footnote.r")
+    source("/home/svesan/ki/R/functions/sspeelit1.r")
+    source("/home/svesan/ki/R/functions/theil.r")
+    source("/home/svesan/ki/R/functions/tit.r")
+    source("/home/svesan/ki/R/functions/ordplt.r")
+    source("/home/svesan/ki/R/functions/CrossTable.r")
+    source("/home/svesan/ki/R/functions/ss.desc.r")
+  }
+  else if (Sys.info()[1]=="Windows") {
+    source("z:/R/functions/ss.png.r")
+    source("z:/R/functions/ss.html.r")
+    source("z:/R/functions/contents.r")
+    source("z:/R/functions/phest.r")
+    source("z:/R/functions/phest.plot.r")
+    source("z:/R/functions/Legend.r")
+    source("z:/R/functions/footnote.r")
+    source("z:/R/functions/sspeelit1.r")
+    source("z:/R/functions/theil.r")
+    source("z:/R/functions/tit.r")
+    source("z:/R/functions/ordplt.r")
+    source("z:/R/functions/CrossTable.r")
+    source("z:/R/functions/ss.desc.r")
+  }
+}
